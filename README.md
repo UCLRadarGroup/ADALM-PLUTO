@@ -4,7 +4,6 @@ ADALM-PLUTO
 ===
 
 
-[TOC]
 
 ## Hardware
 To use the ADALM-PLUTO Active Learning Module, you have:
