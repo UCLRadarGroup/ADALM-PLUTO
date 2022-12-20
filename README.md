@@ -1,8 +1,6 @@
 
-
 ADALM-PLUTO
 ===
-
 
 
 ## Hardware
@@ -34,9 +32,16 @@ Below is the example for Windows 10.
 6. Connect to your favorite SDR framework (MATLAB and Simulink as examples here).
     - Download the toolbox for ADALM-PLUTO at [ADALM-PLUTO Radio Support from Communications Toolbox](https://uk.mathworks.com/hardware-support/adalm-pluto-radio.html)
 
-User story
+Basic Tests
 ---
+### Receiving Signal
+This is the results when the receiver is entered at 80MHz, and receiving signals of 80.4 MHz from the signal generator.
+![](https://i.imgur.com/agLENyt.png)
+![](https://i.imgur.com/iWHxIjR.png)
 
+
+
+### Transmitting Signal
 
 
 Project Timeline
