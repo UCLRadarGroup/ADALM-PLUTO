@@ -197,13 +197,17 @@
 % loop. The loop keeps track of the radio time using the frame duration.
 
 %For the option to change default settings, set |cmdlineInput| to 1.
-cmdlineInput = 0;
+cmdlineInput = 1;
 if cmdlineInput
     % Request user input from the command-line for application parameters
     userInput = helperAdsbUserInput;
 else
     load('defaultinputsADSB.mat');
 end
+
+
+%% 
+
 
 % Calculate ADS-B system parameters based on the user input
 [adsbParam,sigSrc] = helperAdsbConfig(userInput);
@@ -225,6 +229,8 @@ msgParser = helperAdsbRxMsgParser(adsbParam);
 start(viewer)
 radioTime = 0;
 
+
+%%
 % Main loop
 while radioTime < userInput.Duration
 
