@@ -42,10 +42,13 @@ This is the results when the receiver is entered at 80MHz, and receiving signals
 
 
 ### Transmitting Signal
-
+<img width="317" alt="Screenshot 2022-12-21 at 10 26 02" src="https://user-images.githubusercontent.com/103330637/208882982-79bbe0f5-1279-42b7-b1bf-37ac3aa419cf.png">
+Signal received from the transmitting channel:
+<img width="520" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
 
 Project Timeline
 ---
+
 
 
 > Read more here: 
