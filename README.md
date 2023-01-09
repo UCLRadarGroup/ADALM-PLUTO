@@ -37,8 +37,12 @@ Below is the example for Windows 10.
 Basic Tests
 ---
 ### Receiving Signal
-This is the results when the receiver is entered at 80MHz, and receiving signals of 80.4 MHz from the signal generator.
+In order to test it receiving function, I connected Rx to a Signal Generator which was generating a signal of 80.4 MHz, and setting the receiver to be with center frequency of 80 MHz with Simulink.
+
 <img width="500" alt="Screenshot 2022-12-21 at 16 27 29" src="https://i.imgur.com/agLENyt.png">
+
+From the spectrum analyzer, it is clear that it received a peak of 100 dBm at 0.4MHz above center (which is 80.4MHz), proved that the receiving part is working well.
+
 <img width="500" alt="Screenshot 2022-12-21 at 16 27 29" src="https://i.imgur.com/iWHxIjR.png">
 
 
@@ -76,7 +80,9 @@ The example plays the received audio over your computer's speakers.
 
 ## References
 [1] ADALM-PLUTO Overview, https://wiki.analog.com/university/tools/pluto
+
 [2] Introduction to the ADALM-PLUTO, https://wiki.analog.com/university/tools/pluto/users/intro
+
 [3] FM Broadcast Receiver,https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html
 
 
