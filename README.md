@@ -1,7 +1,8 @@
 
 ADALM-PLUTO
 ===
-
+The ADALM-PLUTO Active Learning Module (PlutoSDR) is an easy to use tool available from Analog Devices Inc. (ADI) that can be used to introduce fundamentals of Software Defined Radio (SDR) or Radio Frequency (RF) or Communications as advanced topics in electrical engineering in a self or instructor lead setting. [1]
+<img width="200" alt="Screenshot 2022-12-21 at 16 27 29" src="https://user-images.githubusercontent.com/103330637/211226955-62117c33-c62c-47d6-a24f-ddda3bca2f0d.png">
 
 ## Hardware
 To use the ADALM-PLUTO Active Learning Module, you have:
@@ -36,15 +37,15 @@ Basic Tests
 ---
 ### Receiving Signal
 This is the results when the receiver is entered at 80MHz, and receiving signals of 80.4 MHz from the signal generator.
-![](https://i.imgur.com/agLENyt.png)
-![](https://i.imgur.com/iWHxIjR.png)
+<img width="500" alt="Screenshot 2022-12-21 at 16 27 29" src="https://i.imgur.com/agLENyt.png">
+<img width="500" alt="Screenshot 2022-12-21 at 16 27 29" src="https://i.imgur.com/iWHxIjR.png">
 
 
 
 ### Transmitting Signal
-<img width="317" alt="Screenshot 2022-12-21 at 10 26 02" src="https://user-images.githubusercontent.com/103330637/208882982-79bbe0f5-1279-42b7-b1bf-37ac3aa419cf.png">
+<img width="350" alt="Screenshot 2022-12-21 at 10 26 02" src="https://user-images.githubusercontent.com/103330637/208882982-79bbe0f5-1279-42b7-b1bf-37ac3aa419cf.png">
 Signal received from the transmitting channel:
-<img width="520" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
+<img width="350" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
 
 Project Timeline
 ---
@@ -58,6 +59,8 @@ Project Timeline
 
 
 ## References
-[1] Introduction to the ADALM-PLUTO https://wiki.analog.com/university/tools/pluto/users/intro
+[1] ADALM-PLUTO Overview, https://wiki.analog.com/university/tools/pluto
+[2] Introduction to the ADALM-PLUTO, https://wiki.analog.com/university/tools/pluto/users/intro
+
 
 
