@@ -2,7 +2,8 @@
 ADALM-PLUTO
 ===
 The ADALM-PLUTO Active Learning Module (PlutoSDR) is an easy to use tool available from Analog Devices Inc. (ADI) that can be used to introduce fundamentals of Software Defined Radio (SDR) or Radio Frequency (RF) or Communications as advanced topics in electrical engineering in a self or instructor lead setting. [1]
-<img width="200" alt="Screenshot 2022-12-21 at 16 27 29" src="https://user-images.githubusercontent.com/103330637/211226955-62117c33-c62c-47d6-a24f-ddda3bca2f0d.png">
+
+<img width="300" alt="Screenshot 2022-12-21 at 16 27 29" src="https://user-images.githubusercontent.com/103330637/211226955-62117c33-c62c-47d6-a24f-ddda3bca2f0d.png">
 
 ## Hardware
 To use the ADALM-PLUTO Active Learning Module, you have:
@@ -50,8 +51,21 @@ Signal received from the transmitting channel:
 Project 1: FM Broadcast Receiver
 ---
 We can use ADALM-PLUTO to build an FM mono or stereo receiver with antenna using MATLAB and Communications Toolbox™. This project was conducted at UCL Radar Lab with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html). As FM broadcasting uses frequency modulation (FM) to provide high-fidelity sound transmission over broadcast radio channels, Here, as a example, we'll focus on 94.9 MHz which is the FM frequency of BBC Radio London from Crystal Palace.
-1. Checked it on the FieldFox Microwave Analyzer with the antenna, and we can see a peak on 94.9MHz
+
+
+Before starting, make sure [Communications Toolbox](https://uk.mathworks.com/help/comm/index.html) and [Communications Toolbox Support Package for Analog Devices ADALM-PLUTO Radio](https://uk.mathworks.com/help/supportpkg/plutoradio/index.html) are successfully downloaded and installed.
+
+
+First, check received signals at 94.9MHz on the FieldFox Microwave Analyzer with the antenna. This is aiming to make sure the enviroment in lab and the antenna is working well for receiving this FM. Just as what we are supposed to see, in range from 94.6 MHz to 95.2MHz, there was a clear peak at the center of 94.9 MHz, which should be from the BBC Radio London.
+
 <img width="350" alt="Screenshot 2023-01-09 at 01 05 25" src="https://user-images.githubusercontent.com/103330637/211227902-c57b890b-48d8-4cfe-829d-655d40353511.png">
+
+Then, get the ADALM-PLUTO and atenna connected and prepared, using command openExample('comm/FMBroadcastReceiverExample') in MATLAB to get helper files (which are also available in the FM Receiver folder in this repository). Enter following information as instructed:
+1. Reception duration in seconds - Used 10 as an example
+2. Signal source (captured data, RTL-SDR radio, ADALM-PLUTO radio or USRP radio) - Used 3.ADALM-PLUTO radio
+3. FM channel frequency - Used 94.9 MHz
+
+The example plays the received audio over your computer's speakers.
 
 
 
