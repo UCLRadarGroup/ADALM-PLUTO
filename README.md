@@ -20,8 +20,8 @@ To use the ADALM-PLUTO Active Learning Module, you have:
 
 
 ## Quick Start
-Guides for quick starting with different operating systems are available [here](https://wiki.analog.com/university/tools/pluto/users/quick_start).
-Below is the example for Windows 10.
+Guides for quick starting with different operating systems are available [here](https://wiki.analog.com/university/tools/pluto/users/quick_start), and below is an example worked for Windows 10.
+
 1. Install the drivers
     - Before running the installer, ensure that the hardware supported by the drivers is not connected. 
     - This download should support all of : Windows 10, Windows 8.1, Windows 8, Windows 7 Service Pack 1.
@@ -34,27 +34,30 @@ Below is the example for Windows 10.
 6. Connect to your favorite SDR framework (MATLAB and Simulink as examples here).
     - Download the toolbox for ADALM-PLUTO at [ADALM-PLUTO Radio Support from Communications Toolbox](https://uk.mathworks.com/hardware-support/adalm-pluto-radio.html)
 
+
 Basic Tests
 ---
-### Receiving Signal
-In order to test it receiving function, I connected Rx to a Signal Generator which was generating a signal of 80.4 MHz, and setting the receiver to be with center frequency of 80 MHz with Simulink.
+### Receiving Signals
+
+In order to test its receiving function, I connected Rx to a Signal Generator which was generating a signal of 80.4 MHz, and setting the receiver to be with center frequency of 80 MHz with Simulink.
 
 <img width="500" alt="Screenshot 2022-12-21 at 16 27 29" src="https://i.imgur.com/agLENyt.png">
 
-From the spectrum analyzer, it is clear that it received a peak of 100 dBm at 0.4MHz above center (which is 80.4MHz), proved that the receiving part is working well.
+From the spectrum analyzer, it is clear that it received a peak of 100 dBm at 0.4MHz above center (which is 80.4MHz), confirmed that the receiving part is working well.
 
 <img width="500" alt="Screenshot 2022-12-21 at 16 27 29" src="https://i.imgur.com/iWHxIjR.png">
 
 
 
-### Transmitting Signal
+### Transmitting Signals
+To test its transmitting function, 
 <img width="350" alt="Screenshot 2022-12-21 at 10 26 02" src="https://user-images.githubusercontent.com/103330637/208882982-79bbe0f5-1279-42b7-b1bf-37ac3aa419cf.png">
 Signal received from the transmitting channel:
 <img width="350" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
 
 Project 1: FM Broadcast Receiver
 ---
-We can use ADALM-PLUTO to build an FM mono or stereo receiver with antenna using MATLAB and Communications Toolbox™. This project was conducted at UCL Radar Lab with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html). As FM broadcasting uses frequency modulation (FM) to provide high-fidelity sound transmission over broadcast radio channels, Here, as a example, we'll focus on 94.9 MHz which is the FM frequency of BBC Radio London from Crystal Palace.
+We can use ADALM-PLUTO to build an FM mono or stereo receiver using MATLAB and Communications Toolbox™. This experiment was conducted at UCL Radar Lab, with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html). As FM broadcasting uses frequency modulation (FM) to provide high-fidelity sound transmission over broadcast radio channels, Here, as a example, we'll focus on 94.9 MHz which is the FM frequency of BBC Radio London from Crystal Palace.
 
 
 Before starting, make sure [Communications Toolbox](https://uk.mathworks.com/help/comm/index.html) and [Communications Toolbox Support Package for Analog Devices ADALM-PLUTO Radio](https://uk.mathworks.com/help/supportpkg/plutoradio/index.html) are successfully downloaded and installed.
@@ -72,9 +75,9 @@ Then, get the ADALM-PLUTO and atenna connected and prepared, using command openE
 The example plays the received audio over your computer's speakers.
 
 
-
-> Read more here: 
-
+Project 2: Airplane Tracking
+---
+We can also use ADALM-PLUTO to track planes by receiving Automatic Dependent Surveillance-Broadcast (ADS-B) signals and processing it using MATLAB® and Communications Toolbox™. This experiment was conducted at UCL Radar Lab, with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/airplane-tracking-using-ads-b-signals.html).
 
 
 
