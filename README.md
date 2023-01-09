@@ -50,9 +50,13 @@ From the spectrum analyzer, it is clear that it received a peak of 100 dBm at 0.
 
 
 ### Transmitting Signals
-To test its transmitting function, 
+
+To test its transmitting function, I inputted a waveform of complex envelope with Simulink from MATLAB workspace, and use the oscillocope function from MyDAQ to test its functionality. Here is the design in Simulink.
+
 <img width="350" alt="Screenshot 2022-12-21 at 10 26 02" src="https://user-images.githubusercontent.com/103330637/208882982-79bbe0f5-1279-42b7-b1bf-37ac3aa419cf.png">
-Signal received from the transmitting channel:
+
+Connect the transmitting channel to the input of the MyDAQ, we can observe the transmitted signals on the oscillocope.
+
 <img width="350" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
 
 Project 1: FM Broadcast Receiver
@@ -72,7 +76,7 @@ Then, get the ADALM-PLUTO and atenna connected and prepared, using command openE
 2. Signal source (captured data, RTL-SDR radio, ADALM-PLUTO radio or USRP radio) - Used 3.ADALM-PLUTO radio
 3. FM channel frequency - Used 94.9 MHz
 
-The example plays the received audio over your computer's speakers.
+The example then plays the received audio over your computer's speakers, with duration of 10 seconds.
 
 
 Project 2: Airplane Tracking
