@@ -99,13 +99,21 @@ The example shows the information on the detected airplanes in a tabular form as
 
 
 ## References
-[1] ADALM-PLUTO Overview, https://wiki.analog.com/university/tools/pluto
 
-[2] Introduction to the ADALM-PLUTO, https://wiki.analog.com/university/tools/pluto/users/intro
-[3] PlutoSDR Quick Start, https://wiki.analog.com/university/tools/pluto/users/quick_start
+[1]“ADALM-PLUTO Evaluation Board | Analog Devices,” Analog.com, 2017. https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html#eb-overview
 
-[3] FM Broadcast Receiver,https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html
-[4] Airplane Tracking Using ADS-B Signals, https://uk.mathworks.com/help/supportpkg/plutoradio/ug/airplane-tracking-using-ads-b-signals.html
+[2]“ADALM-PLUTO Overview [Analog Devices Wiki],” wiki.analog.com. https://wiki.analog.com/university/tools/pluto
+
+[3]“Introduction to the ADALM-PLUTO [Analog Devices Wiki],” wiki.analog.com. https://wiki.analog.com/university/tools/pluto/users/intro.
+
+[4]“PlutoSDR Quick Start [Analog Devices Wiki],” wiki.analog.com. https://wiki.analog.com/university/tools/pluto/users/quick_start.
+
+[5]“Introductory Communication Systems Course Using SDR,” uk.mathworks.com. https://uk.mathworks.com/matlabcentral/fileexchange/69417-introductory-communication-systems-course-using-sdr.
+
+[6]“FM Broadcast Receiver - MATLAB & Simulink - MathWorks United Kingdom,” uk.mathworks.com. https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html.
+
+[7]“Airplane Tracking Using ADS-B Signals - MATLAB & Simulink - MathWorks United Kingdom,” uk.mathworks.com. https://uk.mathworks.com/help/supportpkg/plutoradio/ug/airplane-tracking-using-ads-b-signals.html.
+‌
 
 
 
