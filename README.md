@@ -47,8 +47,11 @@ This is the results when the receiver is entered at 80MHz, and receiving signals
 Signal received from the transmitting channel:
 <img width="350" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
 
-Project Timeline
+Project 1: FM Broadcast Receiver
 ---
+We can use ADALM-PLUTO to build an FM mono or stereo receiver with antenna using MATLAB and Communications Toolbox™. This project was conducted at UCL Radar Lab with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html). As FM broadcasting uses frequency modulation (FM) to provide high-fidelity sound transmission over broadcast radio channels, Here, as a example, we'll focus on 94.9 MHz which is the FM frequency of BBC Radio London from Crystal Palace.
+1. Checked it on the FieldFox Microwave Analyzer with the antenna, and we can see a peak on 94.9MHz
+<img width="350" alt="Screenshot 2023-01-09 at 01 05 25" src="https://user-images.githubusercontent.com/103330637/211227902-c57b890b-48d8-4cfe-829d-655d40353511.png">
 
 
 
@@ -57,10 +60,9 @@ Project Timeline
 
 
 
-
 ## References
 [1] ADALM-PLUTO Overview, https://wiki.analog.com/university/tools/pluto
 [2] Introduction to the ADALM-PLUTO, https://wiki.analog.com/university/tools/pluto/users/intro
-
+[3] FM Broadcast Receiver,https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html
 
 
