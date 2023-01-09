@@ -81,7 +81,7 @@ The example then plays the received audio over your computer's speakers, with du
 
 Example 2: Airplane Tracking
 ---
-We can also use ADALM-PLUTO to track planes by receiving Automatic Dependent Surveillance-Broadcast (ADS-B) signals and processing it using MATLAB® and Communications Toolbox™. This experiment was conducted at UCL Radar Lab, with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/airplane-tracking-using-ads-b-signals.html).
+We can also use ADALM-PLUTO to track planes by receiving Automatic Dependent Surveillance-Broadcast (ADS-B) signals and processing it using MATLAB® and Communications Toolbox™. This experiment was conducted at UCL Radar Lab, with reference to the example from MathWorks [Airplane Tracking Using ADS-B Signals](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/airplane-tracking-using-ads-b-signals.html).
 
 Before starting, make sure [Communications Toolbox](https://uk.mathworks.com/help/comm/index.html) and [Communications Toolbox Support Package for Analog Devices ADALM-PLUTO Radio](https://uk.mathworks.com/help/supportpkg/plutoradio/index.html) are successfully installed.
 
@@ -102,7 +102,10 @@ The example shows the information on the detected airplanes in a tabular form as
 [1] ADALM-PLUTO Overview, https://wiki.analog.com/university/tools/pluto
 
 [2] Introduction to the ADALM-PLUTO, https://wiki.analog.com/university/tools/pluto/users/intro
+[3] PlutoSDR Quick Start, https://wiki.analog.com/university/tools/pluto/users/quick_start
 
 [3] FM Broadcast Receiver,https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html
+[4] Airplane Tracking Using ADS-B Signals, https://uk.mathworks.com/help/supportpkg/plutoradio/ug/airplane-tracking-using-ads-b-signals.html
+
 
 
