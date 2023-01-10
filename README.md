@@ -59,6 +59,16 @@ Connect the transmitting channel to the input of the MyDAQ, we can observe the t
 
 <img width="350" alt="Screenshot 2022-12-21 at 10 24 19" src="https://user-images.githubusercontent.com/103330637/208882773-7898df15-94c3-460b-8037-708b83655408.png">
 
+### Transmitting and Receiving Signals Simultaneously 
+
+To test its full-duplex function working, I connected its transmitting and receiving connectors together, giving signal input to the transmittor and use spectrum analyzer to display the output from its receiver, as shown in the diagram.
+
+<img width="400" alt="Screenshot 2023-01-10 at 00 09 00" src="https://user-images.githubusercontent.com/103330637/211433255-b1a0522d-1e40-4624-957c-b1e2e3658d16.png">
+
+Looking at the spectrum analyzer, we can find the signals that we are transmitting.
+<img width="400" alt="Screenshot 2023-01-10 at 00 08 51" src="https://user-images.githubusercontent.com/103330637/211434740-9d43fd4f-0ec3-4dea-baac-f2cc3039f557.png">
+
+
 Example 1: FM Broadcast Receiver
 ---
 We can use ADALM-PLUTO to build an FM mono or stereo receiver using MATLAB and Communications Toolbox™. This experiment was conducted at UCL Radar Lab, with reference to the example from MathWorks [FM Broadcast Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/fm-broadcast-receiver.html). As FM broadcasting uses frequency modulation (FM) to provide high-fidelity sound transmission over broadcast radio channels, Here, as a example, we'll focus on 94.9 MHz which is the FM frequency of BBC Radio London from Crystal Palace.
