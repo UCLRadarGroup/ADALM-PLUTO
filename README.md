@@ -20,7 +20,7 @@ To use the ADALM-PLUTO Active Learning Module, you have:
 
 
 ## Quick Start
-Guides for quick starting with different operating systems are available [here](https://wiki.analog.com/university/tools/pluto/users/quick_start), and below is an example worked for Windows 10.
+Guides for quick starting with different operating systems are available [here](https://wiki.analog.com/university/tools/pluto/users/quick_start)(not yet updated the driver for macOS after Mojave 10.14), and below is an example worked for Windows 10:
 
 1. Install the drivers
     - Before running the installer, ensure that the hardware supported by the drivers is not connected. 
@@ -108,7 +108,16 @@ The example shows the information on the detected airplanes in a tabular form as
 
 ## Conclusion
 
-In conclusion, 
+In conclusion, ADALM-PLUTO as a full-duplex SDR can be a good and easy-to-use tool for testing with live RF signals, prototyping of custom radio functions and getting hands-on learning of wireless communications concepts.
+
+More projects:
+
+[QPSK Transmitter with ADALM-PLUTO Radio](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/qpsk-transmitter-with-adalm-pluto-radio.html)
+
+[Modulation Classification with Deep Learning](https://uk.mathworks.com/help/deeplearning/ug/modulation-classification-with-deep-learning.html?searchHighlight=Adalm%20pluto&s_tid=srchtitle_Adalm%2520pluto_49)
+
+
+
 
 
 
