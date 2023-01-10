@@ -110,12 +110,19 @@ The example shows the information on the detected airplanes in a tabular form as
 
 In conclusion, ADALM-PLUTO as a full-duplex SDR can be a good and easy-to-use tool for testing with live RF signals, prototyping of custom radio functions and getting hands-on learning of wireless communications concepts.
 
-More projects:
+More projects with MATLAB and Simulink:
 
 [QPSK Transmitter with ADALM-PLUTO Radio](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/qpsk-transmitter-with-adalm-pluto-radio.html)
 
+[Tone Transmitter](https://github.com/matlab-ambassadors-es/ADALM-Pluto-SDR-Hands-On/tree/main/Excercises/MATLAB%20Tone%20Transmitter)
+
+[Spectrum Analysis of Signals](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/spectral-analysis-with-adalm-pluto-radio.html)
+
+[RDS/RBDS and RadioText Plus (RT+) FM Receiver](https://uk.mathworks.com/help/supportpkg/plutoradio/ug/rds-rbds-and-radiotext-plus-rt-fm-receiver.html)
+
 [Modulation Classification with Deep Learning](https://uk.mathworks.com/help/deeplearning/ug/modulation-classification-with-deep-learning.html?searchHighlight=Adalm%20pluto&s_tid=srchtitle_Adalm%2520pluto_49)
 
+[Introductory Communication Systems Course Using SDR](https://uk.mathworks.com/matlabcentral/fileexchange/69417-introductory-communication-systems-course-using-sdr)
 
 
 
